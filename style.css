@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+.dark{
+   background-color: black;
+   color: white
+}
+
+.light{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    text-align: center;
+}
+
+
+.theme-container{
+    width: 80%;
+    height: 120px;
+    padding: 1rem;
+}
+
+.theme-container-2{
+    margin-top: 50px;
+    width: 80%;
+    height: 120px;
+    border: 2px solid grey;
+    padding: 1rem;
+}
+
+.theme-container p{
+    font-size:25px;
+    font-weight: 600;
+}
+
+.theme-container-2 p{
+    font-size:25px;
+    font-weight: 600;
+}
